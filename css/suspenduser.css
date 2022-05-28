@@ -1,0 +1,41 @@
+html {
+    background-image: url("/pictures/pink.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list {
+  position: relative;
+  left:220px;
+  top: -70px;
+}
+
+#table {
+  width: 70%;
+  border:solid;
+  border-width: 2px;
+  text-align: center;
+}
+
+#table th,td {
+  outline: thin solid;
+}
+
+.search_profile {
+  outline: thin solid;
+  display: ;
+}
+
+.show {
+  display: block;
+}
+
+.list button {
+  float: right;
+  vertical-align: middle;
+  position: relative;
+  top: 80px;
+  left: -350px;
+  width: 60px;
+  height: 30px;
+}

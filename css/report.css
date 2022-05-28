@@ -1,0 +1,62 @@
+.report {
+    left: 570px;
+    position:relative;
+    top: 100px; 
+    display: block;
+    height: 25%;
+    width: 100%;
+}
+
+.check select, label{
+    padding: 10px;
+}
+
+.generate {
+    position: relative;
+    left: 65px;
+    padding: 50px;
+}
+
+.generate button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.show {
+    position: relative;
+    top: 100px;
+    display: block;
+}
+
+.show table {
+    min-width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid;
+    border-width: 2px;
+    text-align: center;
+  }
+  
+.show table th,td {
+    outline: thin solid;
+    padding: 5px;
+  }
+
+.show div {
+    padding: 15px; 
+}
+
+#traffic {
+    display: none;
+}
+
+#sales-report {
+    display: none;
+}
+
+#average-spent {
+    display: none;
+}

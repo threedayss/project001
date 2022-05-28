@@ -1,0 +1,37 @@
+html {
+    background-image: url("/pictures/pink.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.profile {
+    display:inline-block;  
+    text-align: left;  
+    width: 50%;
+}
+
+.options {
+  position: relative;
+  left:350px;
+  overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+  word-wrap: normal;
+}
+
+#describe{
+  position:relative;
+  width: 50%;
+  left:800px;
+  top:-155px;
+  text-align: left;
+}
+
+#submit {
+    width:150px;
+    height:30px;
+    text-align: center;
+    position:relative;
+    left:70px;
+}

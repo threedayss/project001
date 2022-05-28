@@ -1,0 +1,38 @@
+#myInput {
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 14px 230px 12px 45px;
+  border: none;
+
+}
+
+.drop{
+  position: relative;
+  display: inline-block;
+  left:500px;
+  top: -70px;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}

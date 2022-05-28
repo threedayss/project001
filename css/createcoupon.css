@@ -1,0 +1,49 @@
+html {
+    background-image: url("/pictures/pink.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.search input {
+    width: 500px;
+    height: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.search {
+    position: relative;
+    left: 100px;
+}
+
+#createbutton {
+    width:150px;
+    height:30px;
+    text-align: center;
+    position:relative;
+    left:70px;
+    top: 20px;
+}
+
+#coupondesc {
+    height: 100px;
+    width: 250px;
+}
+
+.options {
+    overflow: hidden;
+    white-space: nowrap; /* Don't forget this one */
+    text-overflow: ellipsis;
+    word-wrap: normal;
+  }
+
+  .menu {
+    display:inline-block;  
+    text-align: left;  
+    width: 50%;
+}

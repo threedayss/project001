@@ -1,0 +1,101 @@
+/* Split screen in half */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+background-image: url("/pictures/pink.jpeg");
+}
+
+.split {
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+#left {
+  left: 0;
+  background-color: white;
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 30%;
+  padding-bottom: 80%;
+  font-family: 'Poppins', sans-serif;
+  width:40%;
+}
+
+/* Control the right side */
+#right {
+  height: 100%;
+  right: 0;
+  background-image: url("/pictures/food.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  text-align: center;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 30px;
+  height: 30px;
+}
+
+#submitb {
+      position:absolute;
+      font-size: 13px;
+      box-sizing: border-box;
+      margin: 15px auto;
+      background-color: lightgrey;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px;
+      border-radius: 10px;
+      min-height: 30px;
+      min-width: 120px;
+}
+
+#submitb:hover {
+  background-color: lightpink;
+  transition: 0.7s;
+}
+
+#forgetp {
+    padding-left: 3px;
+    padding-top: 15px;
+    font-size: 11px;
+}
+
+#continue {
+  padding-left: 3px;
+  padding-top: 15px;
+  font-size: 9px;
+}
+
+input {
+  width:250px;
+  height: 30px;
+  box-sizing: border-box;
+  margin: 15px auto;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+input:hover{
+  transition: 0.7s;
+  transform: scale(1.02);
+  border-color: lightpink;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}

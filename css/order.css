@@ -1,0 +1,78 @@
+.header {
+    width:99%;
+}
+
+.board {
+    padding-left: 25%;
+    padding-right: 10%;
+    position: relative;
+    left: 0px;
+    display: block;
+}
+
+#add {
+    background-color: gray;
+}
+
+.board img {
+    position: relative;
+    top: -50px;
+    height:140px;
+    width:100%;
+}
+
+.profile {
+    width: 190px;
+    height: 300px;
+    font-size:20px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    color: black;
+    text-decoration: none;
+    padding-top: 50px;
+    display:inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.profile h3,p {
+    position: relative;
+    top: -75px;
+}
+
+.board button {
+    position: relative;
+    top: -65px;
+    border:none;
+    outline:0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 12px;
+}
+
+.food {
+    padding-top:20%;
+    padding-bottom:20%;
+}
+
+#beverage {
+    padding-bottom: 40%;
+}
+
+#view-cart {
+    border-bottom: 2px solid;
+    padding:5px;
+}

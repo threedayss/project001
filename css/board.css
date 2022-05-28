@@ -1,0 +1,37 @@
+.board {
+    padding-left: 27%;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    position: relative;
+    left: 0px;
+}
+
+.board span {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left:290px;
+}
+
+#add {
+    background-color: gray;
+}
+
+.board a {
+    height:90px;
+    width: 150px;
+    font-size:20px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+    padding-top: 50px;
+    display:inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
