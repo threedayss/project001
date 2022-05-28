@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="../js/topbar.js"></script>
+<link rel="stylesheet" href="../css/restauranthome.css">
+<link rel="stylesheet" href="../css/board.css">
+<link rel="stylesheet" href="../css/topbar.css">
+
+<body>
+<!-- for the heading of the website -->
+    <div class="header">
+        <a href="restauranthome.html">
+            Dumbledore House
+        </a>
+        <span class="username">
+            Welcome
+<!-- to allow user to click on the user icon to logout -->
+            <div class="dropdown">
+                <button class="dropbtn"><img src="../pictures/apple.png"></button>
+                <div class="dropdown-content">
+                  <button>User Profile</button>
+                  <button>Settings</button>
+                  <button onclick="displayAlert();">Logout</button>
+                </div>
+              </div>
+        </span>
+    </div>
+
+<!-- allow users to move around to different pages related to user profile and user accounts-->
+    <div class="board">
+
+<!-- this para is for you guys incase yall get confused which row is for user account/ user profile -->
+        <p>Menu: </p><br>
+        <a href="createmenu.php" class="profile">
+            Create Menu Item
+        </a>
+        <a href="viewmenu.php" class="profile">
+            View Menu Item
+        </a>
+        <a href="suspendmenu.php" class="profile">
+            Suspend Menu Item
+        </a>
+        <a href="modifymenu.php" class="profile">
+            Update Menu Item
+        </a>
+        <br>
+<!-- For coupons -->
+        <p>Coupons: </p><br>
+        <a href="createcoupon.php" class="profile">
+            Create Coupon
+        </a>
+        <a href="viewcoupon.php" class="profile">
+            View Coupon
+        </a>
+        <a href="deletecoupon.php" class="profile">
+            Suspend Coupon
+        </a>
+        <a href="modifycoupon.php" class="profile">
+            Update Coupon
+        </a>
+        <br>
+
+    </div>
+    
+</body>

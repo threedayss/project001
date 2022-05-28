@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="../js/topbar.js"></script>
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../css/board.css">
+<link rel="stylesheet" href="../css/topbar.css">
+
+<body>
+<!-- for the heading of the website -->
+    <div class="header">
+        <a href="../Boundary/home.html">
+            Company Name
+        </a>
+        <span class="username">
+            Welcome, Username
+<!-- to allow user to click on the user icon to logout -->
+            <div class="dropdown">
+                <button class="dropbtn"><img src="../pictures/apple.png"></button>
+                <div class="dropdown-content">
+                  <button>User Profile</button>
+                  <button>Settings</button>
+                  <button onclick="displayAlert();">Logout</button>
+                </div>
+              </div>
+        </span>
+    </div>
+
+<!-- allow users to move around to different pages related to user profile and user accounts-->
+    <div class="board">
+
+<!-- this para is for you guys incase yall get confused which row is for user account/ user profile -->
+        <p>Roles: </p><br>
+        <a href="../Boundary/createprofile.php" class="profile">
+            Add Profile
+        </a>
+        <a href="../Boundary/viewprofile.php" class="profile">
+            View Profile
+        </a>
+        <a href="../Boundary/suspendprofile.php" class="profile">
+            Suspend Profile
+        </a>
+        <a href="../Boundary/updateprofile.php" class="profile">
+            Update Profile
+        </a>
+        <br>
+        
+<!-- this para is for you guys incase yall get confused which row is for user account/ user profile -->
+        <p>Accounts: </p><br>
+        <a href="../Boundary/createaccount.php" class="profile">
+            Add User
+        </a>
+        <a href="../Boundary/viewaccount.php" class="profile">
+            View User
+        </a>
+        <a href="../Boundary/suspendaccount.php" class="profile">
+            Suspend User
+        </a>
+        <a href="../Boundary/updateaccount.php" class="profile">
+            Update User
+        </a>
+        <br>
+    </div>
+</body>

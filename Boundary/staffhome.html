@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="../js/topbar.js"></script>
+<link rel="stylesheet" href="../css/restauranthome.css">
+<link rel="stylesheet" href="../css/board.css">
+<link rel="stylesheet" href="../css/topbar.css">
+
+<body>
+<!-- for the heading of the website -->
+    <div class="header">
+        <a href="staffhome.html">
+            Dumbledore House
+        </a>
+        <span class="username">
+            Welcome
+<!-- to allow user to click on the user icon to logout -->
+            <div class="dropdown">
+                <button class="dropbtn"><img src="../pictures/apple.png"></button>
+                <div class="dropdown-content">
+                  <button>User Profile</button>
+                  <button>Settings</button>
+                  <button onclick="displayAlert()";>Logout</button>
+                </div>
+              </div>
+        </span>
+    </div>
+
+<!-- allow users to move around to different pages related to user profile and user accounts-->
+    <div class="board">
+
+<!-- this para is for you guys incase yall get confused which row is for user account/ user profile -->
+        <a href="createorder.php" class="profile">
+            Create Order
+        </a>
+        <a href="allorder.php" class="profile">
+            View Ongoing Orders
+        </a>
+        <a href="vieworder.php" class="profile">
+            View Order History
+        </a>
+        <br>
+
+    </div>
+    
+</body>
